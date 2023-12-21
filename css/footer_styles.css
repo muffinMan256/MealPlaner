@@ -1,0 +1,62 @@
+
+.footer .btn.btn-link {
+  display: block;
+  margin-bottom: 5px;
+  padding: 0;
+  text-align: left;
+  color: var(--light);
+  font-weight: normal;
+  text-transform: capitalize;
+  transition: .3s;
+}
+.footer .btn.btn-link::before {
+  position: relative;
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 10px;
+}
+.footer .btn.btn-link:hover {
+  letter-spacing: 1px;
+  box-shadow: none;
+}
+.container-bg{
+  background-color: #C3BF6D;; /* Set your desired background color */
+  color: text-light; /* Set your desired text color */
+  margin-top: 5rem; /* Set your desired top margin */
+  padding-top: 5rem; /* Set your desired top padding */
+  padding-bottom: 5rem; /* Set your desired bottom padding */
+  animation: fadeIn 0.5s ease-in-out 0.1s; /* Add a fade-in animation */
+  
+}
+
+.text{
+  margin-bottom: 4rem;
+  font-weight: bold;
+  color:  #E55934;
+}
+span{
+  font-weight:bolder;
+  color:#d9594c;
+}
+p{
+  margin-bottom: 2rem;
+}
+
+.footer-sec{
+  display: flex;
+  justify-content: center;
+}
+.copyright-section{
+  color: aliceblue;
+  font-weight: bold;
+  background-color:#E55934;
+  height: 50px;
+  margin-bottom: 0;
+  padding: .8rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+

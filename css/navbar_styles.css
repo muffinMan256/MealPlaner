@@ -1,0 +1,79 @@
+
+
+*{
+ font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#logo {
+  width: 3.5rem;
+ 
+}
+
+
+#logo:hover {
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 139));
+  transform: rotate(360deg);
+  transition: all, ease-in-out;
+  transition-duration: 0.8s;
+}
+
+.navbar{
+  background-color: white;
+  
+  
+  
+}
+
+.navbar-nav li.nav-item {
+  margin: 1vh;
+padding-top: 1vh;}
+
+
+.profilimg{
+  padding-top: 5px;
+}
+
+
+#create:hover {
+  color: #ce8d66;
+}
+#planner:hover {
+  color: #8bcf8a;
+}
+#login:hover {
+  color: #c3bf6d;
+}
+
+#planer:hover{
+  color: #e55934;
+}
+
+#recipes:hover {
+  color: #ce8d66;
+}
+
+#your_recipes:hover{
+  color: #e55934;
+}
+
+#recipes_dashboard:hover {
+  color: #c3bf6d;
+}
+
+#user_dashboard:hover {
+  color: #e55934;
+}
+
+#login_update:hover {
+  color: #8bcf8a;
+}
+
+#logout:hover {
+  color: #ce8d66;
+}
+
+
+#href{
+    text-decoration: none;
+}

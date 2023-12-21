@@ -1,0 +1,261 @@
+.hero-bg img{
+width: 120% auto;
+height: 10%;
+}
+
+.row{
+    display: flex;
+}
+.column{
+    display: grid;
+}
+.container{
+    max-width:50%;
+    margin: 1rem auto;
+}
+
+.category{
+    padding: 2em 0;
+}
+.category-btn{
+    color: aliceblue;
+
+}
+
+h2 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    font-size: clamp(20px, 5vw, 30px);
+    text-transform: capitalize;
+    text-decoration: none;  
+    margin-bottom: 2rem;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cat-card h6 {
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 1em;
+    color: rgb(31, 32, 32);
+    text-decoration: none;
+}
+
+.category-title a {
+    background-color: #E55934;  
+    border-radius: 15px;  
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0.5em 1.5em; /* Adjust the top and bottom padding */
+    text-transform: capitalize;
+    text-decoration: none;
+    width: 100%;
+   
+}
+.category-title a:hover{
+    background-color: #E55934;
+    color: rgb(240, 255, 255);
+    box-shadow: 3px 3px 6px rgb(203, 189, 108);
+    text-decoration: none;
+}
+.category-cards {
+    margin-bottom: 2rem; 
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap:2em;
+    padding: 2em 0;
+}
+.category-cards img {
+    width: 4vw; /* Set the desired width using viewport width units */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px;
+    display: block; /* Make the images block-level elements */
+    margin: 0 auto; /* Center the images horizontally */
+}
+.cat-card{
+    margin-top: 2rem;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(237, 161, 46, 0)0%, rgba(112,130,70,0.2)100%);
+    padding: 1em;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.cat-card:nth-of-type(1) {
+    background: linear-gradient(180deg, rgba(201, 201, 51, 0)0%, rgba(216, 244, 35, 0.243)100%);
+}
+.cat-card:nth-of-type(2) {
+    background: linear-gradient(180deg, rgba(119, 185, 75, 0)0%, rgba(120, 157, 32, 0.2)100%);
+}
+.cat-card:nth-of-type(3) {
+    background: linear-gradient(180deg, rgba(200, 60, 13, 0)0%, rgba(211, 109, 36, 0.2)100%);
+}
+.cat-card:nth-of-type(4) {
+    background: linear-gradient(180deg, rgba(237, 161, 46, 0)0%, rgba(190, 79, 230, 0.2)100%);
+}
+.cat-card:nth-of-type(5) {
+    background: linear-gradient(180deg, rgba(237, 161, 46, 0)0%, rgba(47, 183, 181, 0.2)100%);
+}
+.cat-card:nth-of-type(6) {
+    background: linear-gradient(180deg, rgba(237, 161, 46, 0)0%, rgba(22, 16, 183, 0.2)100%);
+}
+.cat-card:hover,
+.card:hover,
+instagram-cards a:hover{
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+.pt-5 {
+    padding-top: 3rem !important;
+}
+.my-5 {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+}
+.border-0 {
+    border: 0 !important;
+}
+.position-relative {
+    position: relative !important;
+}
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+}
+.card{
+    position: relative;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: .25rem;
+    min-height: 450px;
+
+    
+}
+
+.member-profile {  
+    top: -50px;
+    left: 0;
+}
+.text-center {
+    text-align: center !important;
+}
+.w-100 {
+    width: 100% !important;
+}
+.position-absolute {
+    position: absolute !important;
+}
+
+.member-profile img {
+    width: 150px;
+    height: 150px;
+}
+.member-name{
+    margin-top: 5px;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important;
+}
+
+.rounded-circle.mb-2.d-inline-block.shadow-sm {
+    border: 2px solid #ccc; 
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Make it a circle */
+    overflow: hidden; /* Hide overflow content */
+    object-fit: cover;
+}
+
+
+.heading{
+ background: linear-gradient(90deg,#e55934 0%, #e55934 20%, #ce8d66 40%, #ce8d66 100%);
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ text-align: center;
+ padding: 20px; 
+      
+}
+.slika{ 
+  width: 429px;
+  height: 407px;
+  border-radius: 50%; 
+  
+}
+.wrapper {
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+  
+  .typing-demo {
+    width: 30ch;
+    color: azure;
+    animation:  typing 5s steps(22) infinite, blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .heading {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+  
+    h8 {
+      padding-left: 0; /* Remove left padding on smaller screens */
+      text-align: center; /* Center the text on smaller screens */
+    }
+  
+    .slika {
+      width: 100%; /* Make the image fill the container width */
+      height: auto; /* Maintain aspect ratio */
+      margin-top: 10px; /* Add some space between text and image on smaller screens */
+    }
+  
+    .wrapper {
+      padding: 0 20px; /* Add padding to the wrapper on smaller screens */
+    }
+  
+  }
+
+
+
+
+

@@ -1,0 +1,61 @@
+.card-title {
+    width: auto;
+    height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.btn-custom-info {
+  background-color: #C3BF6D;
+  border: none;
+  
+}
+
+.btn-custom-danger {
+  background-color: #E55934;
+  border: none;
+}
+
+/* Add styles for each weekday */
+.card.monday {
+  border-color: #C3BF6D; /* Specify the RGB values and set opacity to 50% */
+}
+
+.card.tuesday { 
+  border-color: #C3BF6D; 
+}
+.card.wednesday { 
+  border-color: #CE8D66; 
+}
+.card.thursday { 
+  border-color: #CE8D66; 
+}
+.card.friday { 
+  border-color: #D9594C; 
+}
+.card.saturday { 
+  border-color: #D9594C; 
+}
+.card.sunday { 
+  border-color: #E55934; 
+}
+
+
+
+
+
+/* fix for the footer to be on bottom */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
+/*End*/
+
+
+

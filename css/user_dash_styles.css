@@ -1,0 +1,28 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
+  /*Start Hover*/
+  .table tbody td {
+    margin-bottom: 5px;
+    padding: 0;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+  }
+  .table tbody td::before {
+    position: relative;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+  }
+  .table tbody td:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+  }
+  /*End Hover*/
